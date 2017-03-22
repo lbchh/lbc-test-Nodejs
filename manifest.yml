@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: lbc-test-Nodejs Cloudant DB
+  host: lbc-test-Nodejs-Cloudant-DB
+  disk_quota: 1024M
+  services:
+  - lbc-test-Nodejs Cloudant DB-cloudantNoSQLDB
+  - availability-monitoring-auto
